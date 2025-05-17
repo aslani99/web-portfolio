@@ -3,15 +3,15 @@ import Earth from "./Earth";
 // import StarBackground from "./StarBackground";
 import {FaDownload} from "react-icons/fa";
 import "./Header.css";
-// import Moon from "/quarter-moon.png";
-// import Mohammadjpg from "/mohammad.png"
-// import Stars from "/2k_stars_milky_way.jpg"
+import Moon from "/quarter-moon.png";
+import Mohammadjpg from "/mohammad.png"
+import Stars from "/2k_stars_milky_way.jpg"
 
 const Header = () => {
   return (
     <div
       className="w-auh-auto h-fill bg-cover bg-center border-b-2 border-b-[#4169E1]"
-      style={{ backgroundImage: "url(/portfolio-website/2k_stars_milky_way.jpg)" }}
+      style={{ backgroundImage: `url(${Stars})` }}
 
       id="hero"
       
@@ -29,11 +29,11 @@ const Header = () => {
           <div className="flex shrink-0 items-center justify-end">
             <img
               alt="Moon"
-              src="/portfolio-website/quarter-moon.png"
+              src={Moon}
               className="h-auto w-[clamp(25px,6vw,120px)]"
             />
           </div>
-          <img src="/portfolio-website/mohammad.png" alt="Image mmd" className="sm:h-auto 2xl:h-screen " />
+          <img src={Mohammadjpg} alt="Image mmd" className="sm:h-auto 2xl:h-screen " />
         </div>
 
         <div className="sm:h-auto 2xl:h-screen flex items-center justify-center text-white text-center">
