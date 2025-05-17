@@ -42,7 +42,7 @@ const Header = () => {
               Hi, I'm Mohammad 👋
             </h1>
             <h2 className="font-semibold mb-[clamp(16px,3vw,24px)] text-indigo-300 text-[clamp(10px,2vw,32px)]">
-              Front-End Developerrr
+              Front-End Developer
             </h2>
             <p className="mb-[clamp(8px,2vw,32px)] text-gray-300 text-[clamp(7px,2vw,20px)] px-2">
               I build modern, responsive, and accessible web applications using
