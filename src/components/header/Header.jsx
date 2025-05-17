@@ -3,6 +3,7 @@ import Earth from "./Earth";
 // import StarBackground from "./StarBackground";
 import {FaDownload} from "react-icons/fa";
 import "./Header.css";
+
 import Moon from "/quarter-moon.png";
 import Mohammadjpg from "/mohammad.png"
 import Stars from "/2k_stars_milky_way.jpg"
