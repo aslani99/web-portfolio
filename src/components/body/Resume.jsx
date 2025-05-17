@@ -163,7 +163,7 @@ const Resume = () => {
       {/* Download Button */}
       <div className="text-center mt-12">
         <a
-          href="/portfolio-website/Mohammad Aslani Resume.pdf"
+          href="/Mohammad Aslani Resume.pdf"
           download
           className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-[#4169E1] text-white hover:bg-[#274bb5] transition font-semibold"
         >

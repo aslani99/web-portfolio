@@ -4,9 +4,7 @@ import { EffectComposer } from "three/examples/jsm/postprocessing/EffectComposer
 import { RenderPass } from "three/examples/jsm/postprocessing/RenderPass";
 import { UnrealBloomPass } from "three/examples/jsm/postprocessing/UnrealBloomPass";
 
-import Daymap from "/8k_earth_daymap.jpg";
-import Nightmap from "/8k_earth_nightmap.jpg";
-import Cloudmap from "/earth_clouds_1024.png";
+
 
 
 const Earth = () => {
@@ -58,9 +56,9 @@ const Earth = () => {
     container.appendChild(renderer.domElement);
 
     const loader = new THREE.TextureLoader();
-    const earthTexture = loader.load(Daymap);
-    const nightTexture = loader.load(Nightmap);
-    const cloudTexture = loader.load(Cloudmap);
+    const earthTexture = loader.load("/8k_earth_daymap.jpg");
+    const nightTexture = loader.load("/8k_earth_nightmap.jpg");
+    const cloudTexture = loader.load("/earth_clouds_1024.png");
 
     const maxAnisotropy = renderer.capabilities.getMaxAnisotropy();
     [earthTexture, nightTexture, cloudTexture].forEach((tex) => {

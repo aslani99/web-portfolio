@@ -4,15 +4,13 @@ import Earth from "./Earth";
 import {FaDownload} from "react-icons/fa";
 import "./Header.css";
 
-import Moon from "/quarter-moon.png";
-import Mohammadjpg from "/mohammad.png"
-import Stars from "/2k_stars_milky_way.jpg"
+
 
 const Header = () => {
   return (
     <div
       className="w-auh-auto h-fill bg-cover bg-center border-b-2 border-b-[#4169E1]"
-      style={{ backgroundImage: `url(${Stars})` }}
+      style={{ backgroundImage: 'url(/2k_stars_milky_way.jpg)' }}
 
       id="hero"
       
@@ -30,11 +28,11 @@ const Header = () => {
           <div className="flex shrink-0 items-center justify-end">
             <img
               alt="Moon"
-              src={Moon}
+              src="/quarter-moon.png"
               className="h-auto w-[clamp(25px,6vw,120px)]"
             />
           </div>
-          <img src={Mohammadjpg} alt="Image mmd" className="sm:h-auto 2xl:h-screen " />
+          <img src="/mohammad.png" alt="Image mmd" className="sm:h-auto 2xl:h-screen " />
         </div>
 
         <div className="sm:h-auto 2xl:h-screen flex items-center justify-center text-white text-center">
@@ -59,7 +57,7 @@ const Header = () => {
                 See My Projects
               </a>
               <a
-                href="/portfolio-website/Mohammad Aslani Resume.pdf"
+                href="/Mohammad Aslani Resume.pdf"
                 target="_blank"
                 className="inline-flex justify-center items-center border border-white hover:bg-white hover:text-black text-white font-semibold px-[clamp(1px,1vw,16px)] py-[clamp(1px,1vw,8px)] rounded-lg transition duration-300 w-[clamp(auto,100vw,180px)] gap-2 "
               >
