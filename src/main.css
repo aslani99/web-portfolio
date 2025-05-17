@@ -1,0 +1,5 @@
+html, body, #root, canvas {
+    background: transparent !important;
+    margin: 0;
+    padding: 0;
+  }

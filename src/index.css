@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* html {
+  scroll-behavior: smooth;
+} */
+
+
+body, #root,canvas {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  /* background: transparent !important; */
+
+}
+
+/* canvas {
+  display: block;
+  background: transparent !important;
+} */

@@ -1,0 +1,23 @@
+
+body , root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+::-webkit-scrollbar {
+    width: 6px; /* باریکی اسکرول‌بار */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #2f2f2f; /* پس‌زمینه‌ی مسیر اسکرول‌بار: مشکی */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #979696; /* خود اسکرول‌بار: سفید */
+    border-radius: 10px; /* گوشه‌های گرد */
+  } 
+  
