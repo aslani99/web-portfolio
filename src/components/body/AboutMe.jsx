@@ -3,7 +3,7 @@ import Mohammadpng from "/mohammad.png"
 const AboutMe = () => {
   return (
     <div>
-      <section id="about" className="py-20 px-6  bg-[#000000]">
+      <section id="about" className="py-20 px-6  ">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-10 " id="about">
           <div className="flex-shrink-0 w-50 h-60 min-md:border-r-4 max-md:border-b-4 border-white mt-auto rounded-2xl">
             <img
