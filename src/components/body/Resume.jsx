@@ -18,7 +18,7 @@ const Resume = () => {
       
       
       {/* Header Section */}
-      <section className="text-center mb-12">
+      <section className="text-center mb-12" >
         <h1 className="text-4xl md:text-5xl font-bold text-[#FFD700]">Mohammad Aslani</h1>
         <p className="text-xl md:text-2xl text-[#6A0DAD] mt-2"><strong>Frontend Developer</strong></p>
         <div className="mt-4 space-y-1 text-sm md:text-base">

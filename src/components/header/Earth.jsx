@@ -56,7 +56,7 @@ const Earth = () => {
     container.appendChild(renderer.domElement);
 
     const loader = new THREE.TextureLoader();
-    const earthTexture = loader.load("/8k_earth_daymap.jpg");
+    const earthTexture = loader.load("/8k_earth_daymap_Persian-Gulf.png");
     const nightTexture = loader.load("/8k_earth_nightmap.jpg");
     const cloudTexture = loader.load("/earth_clouds_1024.png");
 
