@@ -6,7 +6,7 @@ import { FaPhone, FaEnvelope, FaLinkedin, FaDownload, FaMapMarkerAlt, FaUserGrad
 
 const Resume = () => {
   return (
-    <div className="bg-[#000000] text-[#F2F2F2] min-h-screen px-6 py-10 font-sans scroll-mt-20" id="contact">
+    <div className="bg-[#000000] text-[#F2F2F2] min-h-screen px-6 py-10 font-sans scroll-mt-20 rounded-2xl" id="contact">
       
       
       

@@ -4,7 +4,7 @@ const Content = () => {
   return (
     <div>
 
-      <div className="max-w-5xl mx-auto p-6 pt-0  rounded-2xl shadow-2xl border-[#F2F2F2] border-r-6  flex justify-center items-center  flex-col">
+      <div className="max-w-5xl mx-auto p-4 pt-0  rounded-2xl shadow-2xl border-[#F2F2F2] border-r-6  flex justify-center items-center  flex-col bg-[#000000]">
       <Resume/>
       </div>
       
