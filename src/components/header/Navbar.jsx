@@ -16,7 +16,7 @@ import { useTranslation } from 'react-i18next';
 const navigation = [
   { name: "Home", href: "#hero", current: true },
   { name: "About Me", href: "#about", current: false },
-  { name: "Resume", href: "#resume", current: false },
+  // { name: "Resume", href: "#resume", current: false },
   { name: "Projects", href: "#projects", current: false },
   { name: "Contact Me", href: "#contact", current: false },
 ];
@@ -113,14 +113,14 @@ export default function Navbar() {
                 className="absolute right-0 z-50 mt-2 w-48 origin-top-right  py-1 shadow-lg ring-1 ring-black/5 transition focus:outline-hidden data-closed:scale-95 data-closed:transform data-closed:opacity-0 data-enter:duration-100 data-enter:ease-out data-leave:duration-75 data-leave:ease-in border border-amber-50 rounded-md "
                  style={{ backdropFilter: 'blur(4px)', transform: 'translateZ(0)', backgroundColor: 'rgba(0, 0, 0, 0.7)' }}
               >
-                <MenuItem>
+                {/* <MenuItem>
                   <a
                     href="#"
                     className=" px-4 py-2 text-sm text-white   relative block after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 hover:after:w-full after:h-[2px] after:bg-white	 after:transition-all after:duration-300 "
                   >
                     🌗 Dark / Light Mode
                   </a>
-                </MenuItem>
+                </MenuItem> */}
                 <MenuItem>
                   <a
                     href="#"

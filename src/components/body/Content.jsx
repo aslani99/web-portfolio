@@ -1,12 +1,10 @@
 // <TypingText />
-import AboutMe from "./AboutMe";
 import Resume from "./Resume";
 const Content = () => {
   return (
     <div>
 
-      <div className="max-w-4xl mx-auto p-6 pt-0 bg-royalBlue rounded-2xl shadow-lg border-white border-r-4  flex justify-center items-center  flex-col">
-      <AboutMe/>
+      <div className="max-w-5xl mx-auto p-6 pt-0  rounded-2xl shadow-2xl border-[#F2F2F2] border-r-6  flex justify-center items-center  flex-col">
       <Resume/>
       </div>
       
